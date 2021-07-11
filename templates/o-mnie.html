@@ -1,0 +1,9 @@
+{% extends "parent.html" %}
+{% block content %}
+    <h2>O mnie</h2>
+    <p class="opis"><strong>imię:</strong> Jacek</p>
+    <p class="opis"><strong>nazwisko:</strong> Pietraszkiewicz</p>
+    {% if kto %}
+<div class="opis">Dziękuję za wiadomość: <el class="opis_i">'{{kto}}'</el></div>
+    {% endif %}
+{% endblock %}

@@ -1,0 +1,21 @@
+<{% extends "parent.html" %}
+{% block content %}
+    <h2>Kontakt</h2>
+
+    <ul>
+      <li><p class="opis"><strong>email:</strong> tralalele@kodilla.com</p>
+      <li><p class="opis"><strong>telefon:</strong> +48 123 456 789</p>
+    </ul>
+<!--    <h3>Wyślij do mnie wiadomość</h3>-->
+
+    <form method = "POST">
+        <label class="opis">Wyślij do mnie wiadomość:<br></label>
+        <textarea name="wiadomosc" cols="50" rows="10">Tu wpisz wiadomość...</textarea>
+        <button>Prześlij</button>
+    </form>
+<!--        <form method = "POST">-->
+<!--            <label class="opis">Wyślij do mnie wiadomość:<label>-->
+<!--            <input name="wiadomosc"></input>-->
+<!--            <input type="submit"/>-->
+<!--        </form>-->
+{% endblock %}

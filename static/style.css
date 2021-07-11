@@ -1,0 +1,48 @@
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: blue;
+  color: white;
+  padding: 5px;
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:blueviolet;
+  margin: 5px;
+}
+
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:black;
+  font-size: 15px;
+  margin: 5px;
+}
+
+h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:black;
+  font-size: 10px;
+  margin: 5px;}
+
+.opis {font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:black;
+  margin: 5px;
+  font-size: 15px;
+}
+
+.opis_i {font-family: courier, sans-serif, Verdana, Geneva, Tahoma;
+  color: blue;
+  font-style: italic;
+  margin: 5px;
+  font-size: 15px;
+}
+
+.hypper {font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:red;
+  margin: 5px;
+  font-size: 10px;
+  padding: 5px;
+}
+
+div#bledy li {color: white;
+background: red;}
