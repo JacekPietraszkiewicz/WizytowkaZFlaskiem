@@ -1,9 +1,13 @@
+# Jacek Pietraszkiewicz 2021. Zadanie Kodilla: Wizytowka z Flaskiem
+# program HTML /my dziedziczący z procedury parent.html
+# wyświetlenie danych identyfikujących z przyjeciem i sprawdzeniem parametru "kto" z procedury /contakt
+
 {% extends "parent.html" %}
 {% block content %}
     <h2>O mnie</h2>
     <p class="opis"><strong>imię:</strong> Jacek</p>
     <p class="opis"><strong>nazwisko:</strong> Pietraszkiewicz</p>
-    {% if kto %}
-<div class="opis">Dziękuję za wiadomość: <el class="opis_i">'{{kto}}'</el></div>
+    {% if kto %} '''sprawdzenie czy przekazano parametr. Jeśli TAK wyświetlenie podziękowania'''
+        <div class="opis">Dziękuję za wiadomość: <el class="opis_i">'{{kto}}'</el></div>
     {% endif %}
 {% endblock %}
